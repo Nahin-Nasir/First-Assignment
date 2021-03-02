@@ -1,0 +1,2 @@
+D:\First-Assignment\First Assignment\obj\Debug\First Assignment.csprojAssemblyReference.cache
+D:\First-Assignment\First Assignment\obj\Debug\First Assignment.csproj.CoreCompileInputs.cache

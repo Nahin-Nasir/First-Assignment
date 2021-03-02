@@ -1,0 +1,14 @@
+I:\assignment\First Assignment\First Assignment\bin\Debug\First Assignment.exe.config
+I:\assignment\First Assignment\First Assignment\bin\Debug\First Assignment.exe
+I:\assignment\First Assignment\First Assignment\bin\Debug\First Assignment.pdb
+I:\assignment\First Assignment\First Assignment\obj\Debug\First Assignment.csprojAssemblyReference.cache
+I:\assignment\First Assignment\First Assignment\obj\Debug\First Assignment.csproj.CoreCompileInputs.cache
+I:\assignment\First Assignment\First Assignment\obj\Debug\First Assignment.exe
+I:\assignment\First Assignment\First Assignment\obj\Debug\First Assignment.pdb
+D:\spring 20-21\C#\mid term assignment\First Assignment\First Assignment\bin\Debug\First Assignment.exe.config
+D:\spring 20-21\C#\mid term assignment\First Assignment\First Assignment\bin\Debug\First Assignment.exe
+D:\spring 20-21\C#\mid term assignment\First Assignment\First Assignment\bin\Debug\First Assignment.pdb
+D:\spring 20-21\C#\mid term assignment\First Assignment\First Assignment\obj\Debug\First Assignment.csprojAssemblyReference.cache
+D:\spring 20-21\C#\mid term assignment\First Assignment\First Assignment\obj\Debug\First Assignment.csproj.CoreCompileInputs.cache
+D:\spring 20-21\C#\mid term assignment\First Assignment\First Assignment\obj\Debug\First Assignment.exe
+D:\spring 20-21\C#\mid term assignment\First Assignment\First Assignment\obj\Debug\First Assignment.pdb

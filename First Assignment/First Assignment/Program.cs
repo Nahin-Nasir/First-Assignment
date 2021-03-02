@@ -22,10 +22,10 @@ namespace First_Assignment
             //Console.WriteLine("Enter 1 for withdraw");
             //Console.WriteLine("Enter 2 for deposit");
             //Console.WriteLine("Enter 3 for transfer");
-            //choice = Convert.ToInt32(Console.ReadLine());
-            //mB.Transaction(choice);
+            choice = Convert.ToInt32(Console.ReadLine());
+            mB.Transection(choice);
 
-            //mB.PrintAccountDetailes();
+            mB.PrintAccountDetailes();
             Console.ReadKey();
 
         }

@@ -8,14 +8,15 @@ namespace First_Assignment
 {
     class Account
     {
-        private int accountNumber;
+        private int accountNumber = 1;
+        private static int myaccountnumber;
         private string accountName;
         private double balance;
         private Address address;
 
-        public Account( string accountName, double balance, Address address)
+        public Account(string accountName, double balance, Address address)
         {
-            ++accountNumber;
+            accountNumber=++myaccountnumber;
             this.accountName = accountName;
             this.balance = balance;
             this.address = address;
@@ -59,28 +60,20 @@ namespace First_Assignment
         }
         public void Deposit(double amount)
         {
-            this.Balance=this.Balance + amount;
-        
+            this.Balance = this.Balance + amount;
+
         }
         public void Transfer(double amount, Account receiver)
         {
             receiver.Deposit(amount);
             this.Withdraw(amount);
-        
+
         }
         public void ShowAccountInformation()
         {
-            Console.WriteLine("Account Informations: AccountNo-{0},AccountName{1},Balance{2},Adress{4}", this.accountNumber, this.accountName, this.balance, this.address);
+            Console.WriteLine("Account Informations: AccountNo-{0},AccountName-{1},Balance-{2}", this.accountNumber, this.AccountName, this.Balance);
+            Console.WriteLine(this.address.GetAddress());
         }
 
-        internal void Transfer(int amount, int receiver)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void Transfer(int amount, object receiver)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
