@@ -73,9 +73,14 @@ namespace First_Assignment
             Console.WriteLine("Account Informations: AccountNo-{0},AccountName{1},Balance{2},Adress{4}", this.accountNumber, this.accountName, this.balance, this.address);
         }
 
+        internal void Transfer(int amount, int receiver)
+        {
+            throw new NotImplementedException();
+        }
 
-
-
-
+        internal void Transfer(int amount, object receiver)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

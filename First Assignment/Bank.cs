@@ -53,12 +53,52 @@ namespace First_Assignment
             }
 
         }
-        public void Transection(int transectionType)
+        public void Transection(int choice)
         {
+            int amount,receiver;
+            int accountnumber = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < MyBank.Length; i++)
+            {
+                if (MyBank[i] != MyBank[accountnumber])
+
+                {
+                    Console.WriteLine("Account does not exist");
+                    break;
+                }
+
+                else if (MyBank[i] == MyBank[accountnumber])
+                {
+                    if (choice == 1)
+                    {
+
+                        Console.WriteLine("Enter amount");
+                        amount = Convert.ToInt32(Console.ReadLine());
+                        MyBank[accountnumber].Withdraw(amount);
+                    }
+
+                    else if (choice == 2)
+                    {
+                        Console.WriteLine("Enter amount");
+                        amount = Convert.ToInt32(Console.ReadLine());
+                        MyBank[accountnumber].Deposit(amount);
+                    }
+
+                    else if (choice == 3)
+                    {
+                        Console.WriteLine("Enter amount and revceiver id");
+                        amount = Convert.ToInt32(Console.ReadLine());
+                        receiver = Convert.ToInt32(Console.ReadLine());
+                        MyBank[accountnumber].Transfer(amount, receiver);
+                    }
+
+                    else
+                        Console.WriteLine("invalid request");
+
+                    break;
+                }
+            }
 
         }
-
-
         public void PrintAccountDetailes()
         {
             for (int i = 0; i < MyBank.Length; i++)
